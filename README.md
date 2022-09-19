@@ -12,6 +12,12 @@ Following is the list of files and a brief description of what they do:
 
 OrthoSetUp.m          -- sets up all of the network types for training  
 OrthoReadDataset.m    -- reads the data in the Excel file OrthobioDatasetV4.xlsx  
-OrthoMakeTruthTable.m -- organizes the dataset into input/desired-output pairs  
+OrthoMakeTruthTable.m -- organizes the dataset into input/desired-output pairs for training
+
+OrthoDeltaTrain.m     -- trains a two-layer (input-output) network on the dataset using delta rule
+OrthoDeltaTest.m      -- tests the two-layer network after training over the dataset
+
+OrthoBackOneTrain.m   -- trains a three-layer (one hidden layer) network on the dataset using backpropagation
+OrthoBackOneTest.m    -- tests the three-layer network after training over the dataset
 
 
