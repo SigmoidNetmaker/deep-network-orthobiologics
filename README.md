@@ -1,7 +1,7 @@
 # deep-network-orthobiologics
 
 This repository contains MATLAB m-files with code that trains various deep networks on orthobiologics data.  
-It also contains an Excel file that holds all the orthobiologics data in our dataset: 
+It also contains an Excel file that holds all the orthobiologics data in our dataset: OrthoDatasetV4.xlsx
 
 The code, and further code derived from it, were used in for the project described in:  
 Anastasio AT, Zinger BS, Anastasio TJ (in revision) A novel application of neural networks to identify potentially effective combinations of biologic factors for enhancement of bone fusion/repair
@@ -11,5 +11,5 @@ The purpose of this project was to: (1) gather data from the literature on ortho
 Following is the list of files and a brief description of what they do:
 
 OrthoSetUp.m       -- sets up all of the network types for training
-OrthoReadDataset.m -- reads the data in the Excel file
+OrthoReadDataset.m -- reads the data in the Excel file OrthoDatasetV4.xlsx
 
