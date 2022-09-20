@@ -14,10 +14,19 @@ OrthoSetUp.m          -- sets up all of the network types for training
 OrthoReadDataset.m    -- reads the data in the Excel file OrthobioDatasetV4.xlsx  
 OrthoMakeTruthTable.m -- organizes the dataset into input/desired-output pairs for training
 
-OrthoDeltaTrain.m     -- trains a two-layer (input-output) network on the dataset using delta rule
-OrthoDeltaTest.m      -- tests the two-layer network after training over the dataset
+OrthoDeltaTrain.m     -- trains a two-layer (input-output) network on the dataset using delta rule  
+OrthoDeltaTest.m      -- tests the two-layer network after training over the dataset  
 
-OrthoBackOneTrain.m   -- trains a three-layer (one hidden layer) network on the dataset using backpropagation
-OrthoBackOneTest.m    -- tests the three-layer network after training over the dataset
+OrthoBackOneTrain.m   -- trains a three-layer (one hidden layer) network on the dataset using backpropagation  
+OrthoBackOneTest.m    -- tests the three-layer network after training over the dataset  
+
+OrthoBackTwoTrain.m   -- trains a four-layer (two hidden layers) network on the dataset using backpropagation  
+OrthoBackTwoTest.m    -- tests the four-layer network after training over the dataset  
+
+[Networks with more layers of hidden units are easily created using the smaller network codes as templates.]  
+[The following is a network having ten layers of hidden units, the largest feedforward network we considered.]  
+
+OrthoBackTenTrain.m   -- trains a twelve-layer (ten hidden layers) network on the dataset using backpropagation  
+OrthoBackTenTest.m    -- tests the twelve-layer network after training over the dataset  
 
 
