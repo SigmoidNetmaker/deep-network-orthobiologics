@@ -39,6 +39,6 @@ OrthoGenError.m             -- finds network generalization error by dividing da
 OrthoParamEval.m            -- finds network generalization error over ranges of learning algorithm parameters  
 
 OrthoMakeCombos.m           -- makes combinations of input factors whose efficacy a network should predict  
-OrthoBackTwoAutoRunCombos.m -- makes predictions using a network with an autoencoded input and two hidden layers
+OrthoBackTwoAutoRunCombos.m -- makes predictions using network with autoencoder and two hidden layers
 
 [We found that a neural network composed of and input layer, an autoencoder layer, two hidden layers, and an output layer generalized best over the dataset. This network type was used to make predicitons on combinations of orthobiologic factors.]  
