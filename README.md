@@ -38,7 +38,7 @@ OrthoAutoTest.m             -- tests the autoencoder network after training over
 OrthoGenError.m             -- finds network generalization error by dividing dataset into training and testing set  
 OrthoParamEval.m            -- finds network generalization error over ranges of learning algorithm parameters  
 
-OrthoMakeCombos.m           -- makes combinations of input factors whose efficacy a network should predict
+OrthoMakeCombos.m           -- makes combinations of input factors whose efficacy a network should predict  
 OrthoBackTwoAutoRunCombos.m -- makes predictions using a network with an autoencoded input and two hidden layers
 
 [We found that a neural network composed of and input layer, an autoencoder layer, two hidden layers, and an output layer  
